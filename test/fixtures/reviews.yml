@@ -1,0 +1,27 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  restaurant_name: MyString
+  review_date: 2023-12-28
+  review_body: MyText
+  tenderloin_rating: 1
+  sides_rating: 1
+  menu_rating: 1
+  price_rating: 1
+  decor_rating: 1
+  service_rating: 1
+  total_rating: 1
+  image: MyString
+
+two:
+  restaurant_name: MyString
+  review_date: 2023-12-28
+  review_body: MyText
+  tenderloin_rating: 1
+  sides_rating: 1
+  menu_rating: 1
+  price_rating: 1
+  decor_rating: 1
+  service_rating: 1
+  total_rating: 1
+  image: MyString
