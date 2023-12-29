@@ -1,5 +1,5 @@
 class Api::V1::ReviewsController < ApplicationController
-  before_action :set_review, only: %i[show destroy]
+  #before_action :set_review, only: %i[show destroy]
 
   def index
     review = Review.all.order(review_date: :desc)
@@ -16,12 +16,13 @@ class Api::V1::ReviewsController < ApplicationController
   end
 
   def show
-    render json: @review
+    review = Review.find(params[:id])
+    render json: review
   end
 
   def destroy
-    @review&.destroy
-    render json: { message: 'Review deleted!' }
+    #@review&.destroy
+    #render json: { message: 'Review deleted!' }
   end
 
   private
