@@ -35,7 +35,7 @@ module ExquisitoBackend
 
     config.middleware.use Rack::Cors do
       allow do
-        origins 'http://localhost:5173'
+        origins 'http://localhost:5173', 'https://exquisito.onrender.com'
         resource '*',
           headers: :any,
           expose: ['access-token', 'expiry', 'token-type', 'uid', 'client'],
