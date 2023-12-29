@@ -81,6 +81,4 @@ test:
 #
 production:
   <<: *default
-  database: exquisito_backend_production
-  username: exquisito_backend
-  password: <%= ENV["EXQUISITO_BACKEND_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
