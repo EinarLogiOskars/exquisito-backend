@@ -31,12 +31,12 @@
         <p>Falli igitur possumus. <i>Iubet igitur nos Pythius Apollo noscere nosmet ipsos.</i> At quanta conantur! Mundum hunc omnem oppidum esse nostrum! Incendi igitur eos, qui audiunt, vides. Sed vobis voluptatum perceptarum recordatio vitam beatam facit, et quidem corpore perceptarum. <b>Sint modo partes vitae beatae.</b> <a href="http://loripsum.net/" target="_blank">Quid igitur, inquit, eos responsuros putas?</a> Haec quo modo conveniant, non sane intellego. Illis videtur, qui illud non dubitant bonum dicere -; Si enim ad populum me vocas, eum. Quis animo aequo videt eum, quem inpure ac flagitiose putet vivere? </p>
         
         ',
-        tenderloin_rating: "#{rand(1..10)}",
-        sides_rating: "#{rand(1..10)}",
-        menu_rating: "#{rand(1..10)}",
-        price_rating: "#{rand(1..10)}",
-        decor_rating: "#{rand(1..10)}",
-        service_rating: "#{rand(1..10)}",
-        total_rating:  "#{rand(1..10)}",
+        tenderloin_rating: "#{rand(1..5)}",
+        sides_rating: "#{rand(1..5)}",
+        menu_rating: "#{rand(1..5)}",
+        price_rating: "#{rand(1..5)}",
+        decor_rating: "#{rand(1..5)}",
+        service_rating: "#{rand(1..5)}",
+        total_rating:  "#{rand(1..5)}",
     )
 end
